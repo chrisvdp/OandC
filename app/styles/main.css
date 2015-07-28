@@ -1,0 +1,41 @@
+body,html{height:100%;}
+
+body{background-color:#000;}
+
+.js.opacity body{opacity:0;
+-webkit-transition: opacity 1s ease-in;
+     -moz-transition: opacity 1s ease-in;
+       -o-transition: opacity 1s ease-in;
+          transition: opacity 1s ease-in}
+
+.container{display: table;
+height: 100%;width:100%;}
+
+
+.hero-unit{padding: 0;
+height: 200px;
+vertical-align: middle;
+display: table-cell;
+text-align: center;
+background:url(../images/O&C_webplaceholder_image.jpg) center center;
+background-size:cover;
+
+}
+
+.hero-unit h1{color:#fefbf1;font-size:110px;letter-spacing:10px;line-height:115px;font-weight:500;}
+
+a{font-family: 'Josefin Slab', serif; font-weight: 100; color:#fefbf1;font-size:22px;
+text-transform:uppercase;}
+a:hover{color:#fae988;text-decoration:none;}
+
+
+#footer{position:fixed;bottom:60px;text-align:center;width:100%;}
+li{margin-left:80px;display:inline;}
+li:first-child{margin-left:0}
+
+@media (max-width: 767px) {
+	li{display:block;margin:5px 0;}
+}
+@media (max-width: 600px){
+	.hero-unit h1{font-size:50px;line-height:60px}
+}
